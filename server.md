@@ -1,5 +1,5 @@
 ---
-title: GraphQL Server
+title: Server
 code: https://github.com/apollographql/meteor-integration/blob/master/main-server.js#L44-L49
 ---
 
