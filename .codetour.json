@@ -1,8 +1,10 @@
 {
-  "targetRepository": "partyparrot/codetours-starter-kit",
-  "description": "Start here when you're making a code tour!",
+  "targetRepository": "apollographql/meteor-integration",
+  "description": "Learn how to link Meteor & Apollo together.",
   "steps": [
-    "my-first-step.md",
-    "markdown.md"
+    "dependencies.md",
+    "client.md",
+    "server.md",
+    "conclusion.md"
   ]
 }
