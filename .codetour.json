@@ -3,7 +3,7 @@
   "description": "Learn how to link Meteor & Apollo together.",
   "steps": [
     "dependencies.md",
-    "client.md",
+    "client-configuration.md",
     "graphql-server.md",
     "conclusion.md"
   ]
