@@ -7,9 +7,9 @@ code: https://github.com/apollographql/meteor-integration/blob/master/main-clien
 
 <a href="https://github.com/apollographql/meteor-integration/blob/master/main-client.js#L19-L43"><h4>Network interface configuration</h4></a>
 
-Apollo Client has a pluggable network interface layer, and `apollo` leverages it. The [`BatchingNetworkInterface`](http://dev.apollodata.com/core/network.html#query-batching) is used by default, and you can also use the classic `NetworkInterface` by setting `batchingNetworkInterface` to `false` [in your configuration options](https://github.com/apollographql/meteor-integration/blob/master/tests/client.js#L44).
+Apollo Client has a pluggable network interface layer, and `apollo` leverages it. The [`BatchingNetworkInterface`](http://dev.apollodata.com/core/network.html#query-batching) is used by default, and you can also use the classic `NetworkInterface` by setting `batchingNetworkInterface` to `false` in your configuration options.
 
-The default endpoint where queries are sent is your Meteor app's `ROOT_URL` + `/graphql`. For example, in development mode: `http://localhost:3000/graphql`. It's also editable [in your configuration options](https://github.com/apollographql/meteor-integration/blob/master/main-client.js#L9).
+The default endpoint where queries are sent is your Meteor app's `ROOT_URL` + `/graphql`. For example, in development mode: `http://localhost:3000/graphql`. It's also editable in your configuration options.
 
 <a href="https://github.com/apollographql/meteor-integration/blob/master/main-client.js#L45-L78"><h4>User Accounts Middleware</h4></a>
 
