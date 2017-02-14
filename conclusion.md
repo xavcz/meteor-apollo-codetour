@@ -46,18 +46,21 @@ Well, you get the point: [get involved in the community, you'll be warmly welcom
 If you do roll your own implementation of Meteor & Apollo, and find interesting patterns, please open an issue or open a pull request on the package's repo, the community will be thankful! 🙏
 
 <h4>Related resources</h4>
+
 _Note: Most of the content written here comes from existing docs & readmes, huge thanks to their writers! If you want to have a deeper look at these resources, here is a non-exhaustive list._
 
 **Apollo Client & friends**
-* [Apollo Client, docs](http://dev.apollodata.com/core/)
-* [React integration of Apollo Client, docs](http://dev.apollodata.com/react/)
-* [Angular integration of Apollo Client, docs](http://dev.apollodata.com/angular2/)
-* [Blaze integration of Apollo Client, docs + repo](https://github.com/Swydo/blaze-apollo)
-* [Vue integration of Apollo Client, docs + repo](https://github.com/Akryum/vue-apollo)
+
+- [Apollo Client, docs](http://dev.apollodata.com/core/)
+- [React integration of Apollo Client, docs](http://dev.apollodata.com/react/)
+- [Angular integration of Apollo Client, docs](http://dev.apollodata.com/angular2/)
+- [Blaze integration of Apollo Client, docs + repo](https://github.com/Swydo/blaze-apollo)
+- [Vue integration of Apollo Client, docs + repo](https://github.com/Akryum/vue-apollo)
 
 **GraphQL Server et al.**
-* [Apollo server tools, docs](http://dev.apollodata.com/tools/)
-* [GraphQL.js implementation, repository](https://github.com/graphql/graphql-js)
-* [GraphiQL, repository](https://github.com/graphql/graphiql)
+
+- [Apollo server tools, docs](http://dev.apollodata.com/tools/)
+- [GraphQL.js implementation, repository](https://github.com/graphql/graphql-js)
+- [GraphiQL, repository](https://github.com/graphql/graphiql)
 
 <h4>Happy hacking with Meteor & Apollo! 🎉</h4>
