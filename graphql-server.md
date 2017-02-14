@@ -1,15 +1,14 @@
 ---
-title: Making of a GraphQL Server and Meteor cohabit
-code: https://github.com/apollographql/meteor-integration/blob/master/main-server.js#L38-49
+title: Making a GraphQL Server and Meteor cohabit
+code: https://github.com/apollographql/meteor-integration/blob/master/main-server.js#L38-L44
 ---
 
-`apollo` allows you to use a handy `createApolloServer` to set up a GraphQL server in your app that will friendly cohabit with your Meteor server.
-
-It is:
+`apollo` allows you to use a handy `createApolloServer` to set up a GraphQL server in your app that will friendly cohabit with your Meteor server. It is:
 * a simple `express` server ...
 * ... with a specific endpoint `/graphql` (by default), enhanced with useful middlewares like `bodyParser` & `grapqhlExpress` ...
 * ... bound to the `WebApp`, Meteor's HTTP request handler.
 
+<a href="https://github.com/apollographql/meteor-integration/blob/master/main-server.js#L45-L47"><h4>GraphQL Server Custom middlewares</h4></a>
 You can add any custom middleware on the `express` server thanks to the `configServer` option: enabling CORS with `cors` for instance.
 
 <a href="https://github.com/apollographql/meteor-integration/blob/master/main-server.js#L53-L65"><h4>GraphQL Server Context</h4></a>
@@ -24,11 +23,13 @@ The `context` is an object shared by all resolvers in a particular query, and is
 
 In the eventuality of a login token sent with every queries, it's time to process it!
 
-🤖... String check, ...ok! Hash the token, ...ok! Query `Meteor.users` collection to find the relevant user, ...ok! 🎉 
+🤖 String check, ...ok! 
+🤖 Hash the token, ...ok! 
+🤖 Run a query on `Meteor.users` collection to find the relevant user, ...ok! 
 
-If the query returns a `user` document and the token isn't expired, `apollo` will automatically assign `userId` & `user` to the `context` object, thus [you can use it in your resolvers](https://github.com/apollographql/meteor-starter-kit/blob/master/imports/api/schema.js#L29-L31)! Great success!
+If the query returns a `user` document and the token isn't expired, `apollo` will automatically assign `userId` & `user` to the `context` object, thus [you can use it in your resolvers](https://github.com/apollographql/meteor-starter-kit/blob/master/imports/api/schema.js#L29-L31)! Great success! 🎉
 
-If no user is found, no bother: it just move forward and will try next time.
+If no user is found, no bother: it just move forward and will try next time. ✌️
 
 <a href="https://github.com/apollographql/meteor-integration/blob/master/main-server.js#L93-L96"><h4>Graph<em>i</em>QL</h4></a>
 

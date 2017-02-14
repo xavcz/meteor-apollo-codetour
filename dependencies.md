@@ -34,7 +34,7 @@ It is enhanced by `graphql-tools`, a package that enables you to build a product
 
 <h4>`graphql-server-express` & stooges</h4>
 
-There are [several implementations of the Graphql server] by the Apollo community. They all rely on Node.js HTTP server frameworks.
+There are [several implementations of the Graphql server](https://github.com/apollostack/graphql-server) by the Apollo community. They all rely on Node.js HTTP server frameworks.
 
 The Meteor `apollo` package relies on the infamous `express`, combined with `body-parser`, a middleware used to parse incoming POST requests bodies to JSON.
 

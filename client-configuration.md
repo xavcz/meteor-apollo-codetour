@@ -25,7 +25,6 @@ Last but not least, it's time to use this super network interface in our Apollo 
 
 The Apollo Client can be exported server-side to achieve server-side rendering. `apollo` automatically recognizes the environment and sets the `ssrMode` accordingly.
 
-`apollo` takes advantages of the [store normalization](http://dev.apollodata.com/core/how-it-works.html#query-benefits), and we reference every object result with its typename, which can be for instance a collection name, and its unique Mongo `_id`.
-
+`apollo` takes advantages of the [store normalization](http://dev.apollodata.com/core/how-it-works.html#query-benefits): it references every object result with their typename, which can be for instance a collection name, combined with their unique Mongo `_id`.
 
 All good? Let's hop in the server-side configuration!

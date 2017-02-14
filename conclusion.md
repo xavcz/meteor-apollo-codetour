@@ -3,11 +3,11 @@ title: Using the package and moving forward
 code: https://github.com/apollographql/meteor-integration/blob/master/README.md#1-20
 ---
 
-Hopefully, you now have a better understanding of what using Apollo in a Meteor app means under the hood!!
+Hopefully, you now have a **better understanding of "using Apollo in a Meteor app" means under the hood**.
 
-After all, it's not that terrible! 🌮
+After all, it's _not that_ terrible! 🌮
 
-<a href="https://github.com/apollographql/meteor-integration/blob/master/README.md#3-5"><h4>Add the package!</h4></a>
+<a href="https://github.com/apollographql/meteor-integration/blob/master/README.md#3-5"><h2>Add the package!</h2></a>
 
 If you want to use this package in your Meteor app:
 ```sh
@@ -17,21 +17,21 @@ npm install --save apollo-client graphql-server-express express graphql graphql-
 meteor add apollo
 ```
 
-<a href="https://github.com/apollographql/meteor-integration/blob/master/README.md#6-8"><h4>Get started in your app</h4></a>
+<a href="https://github.com/apollographql/meteor-integration/blob/master/README.md#6-8"><h2>Get started in your app</h2></a>
 
-That's great to know how it works... however in the end goal is to use Apollo & Meteor together, isn't it? 😏
+That's great to know how it works... but the end goal is to use Apollo & Meteor together, isn't it? 😏
 
 To get started, here are some useful resources:
 
-- [The official Meteor - Apollo docs](http://dev.apollodata.com/core/meteor.html): it will looks familiar to you now, and it provides practical examples on giving a schema to `createApolloServer` or setting up Apollo Client with `meteorClientConfig`.
+- [The official Meteor - Apollo docs](http://dev.apollodata.com/core/meteor.html): it should look familiar to you now, and it provides practical examples on giving a schema to `createApolloServer` or setting up Apollo Client with `meteorClientConfig`.
 
 - [Meteor - Apollo Starter Kit](https://github.com/apollographql/meteor-starter-kit/): a simple kit to start experimenting with Apollo, Meteor and React.
 
-<a href="https://github.com/apollographql/meteor-integration/blob/master/README.md#10-20"><h4>Make this package going forward!</h4></a>
+<a href="https://github.com/apollographql/meteor-integration/blob/master/README.md#10-20"><h2>Make this package going forward!</h2></a>
 
-**All contributions are welcome!**
+<h2>All contributions are welcome!</h2>
 
-You have found a bug? You have ran into a problem using this package? [Open an issue](https://github.com/apollostack/meteor-integration/issues) and contributors will help you solve this! 🤸‍♂️
+You have found a bug? You have ran into a problem using this package? [Open an issue](https://github.com/apollostack/meteor-integration/issues) and contributors will help you solve this! 🙌
 
 You have modified the package to enable an awesome feature not supported at the moment? You think some part of the package could be written more clearly? 🤔 [Open a pull request on the Meteor integration repo](https://github.com/apollostack/meteor-integration/pulls)!
 
@@ -46,7 +46,7 @@ Well, you get the point: [get involved in the community, you'll be warmly welcom
 If you do roll your own implementation of Meteor & Apollo, and find interesting patterns, please open an issue or open a pull request on the package's repo, the community will be thankful! 🙏
 
 <h4>Related resources</h4>
-_Note: Most of the content written here comes from existing docs & readmes, huge thanks to their writers! If you want to deeper look at these resources, here is a non-exhaustive list._
+_Note: Most of the content written here comes from existing docs & readmes, huge thanks to their writers! If you want to have a deeper look at these resources, here is a non-exhaustive list._
 
 **Apollo Client & friends**
 * [Apollo Client, docs](http://dev.apollodata.com/core/)
@@ -59,4 +59,4 @@ _Note: Most of the content written here comes from existing docs & readmes, huge
 * [GraphQL.js implementation, repository](https://github.com/graphql/graphql-js)
 * [GraphiQL, repository](https://github.com/graphql/graphiql)
 
-Happy hacking with Meteor & Apollo! 🎉
+<h4>Happy hacking with Meteor & Apollo! 🎉</h4>
