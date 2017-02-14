@@ -3,7 +3,7 @@ title: Using the package and moving forward
 code: https://github.com/apollographql/meteor-integration/blob/master/README.md#1-20
 ---
 
-Hopefully, you now have a **better understanding of "using Apollo in a Meteor app" means under the hood**.
+Hopefully, you now have a **better understanding of what "using Apollo in a Meteor app" means under the hood**.
 
 After all, it's _not that_ terrible! 🌮
 
