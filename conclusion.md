@@ -29,7 +29,7 @@ To get started, here are some useful resources:
 
 <a href="https://github.com/apollographql/meteor-integration/blob/master/README.md#10-20"><h2>Make this package going forward!</h2></a>
 
-<h2>All contributions are welcome!</h2>
+<h4>All contributions are welcome!</h4>
 
 You have found a bug? You have ran into a problem using this package? [Open an issue](https://github.com/apollostack/meteor-integration/issues) and contributors will help you solve this! 🙌
 
