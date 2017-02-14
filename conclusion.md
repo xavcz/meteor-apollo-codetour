@@ -52,7 +52,8 @@ _Note: Most of the content written here comes from existing docs & readmes, huge
 * [Apollo Client, docs](http://dev.apollodata.com/core/)
 * [React integration of Apollo Client, docs](http://dev.apollodata.com/react/)
 * [Angular integration of Apollo Client, docs](http://dev.apollodata.com/angular2/)
-* [Vue integration of Apollo Client, docs](https://github.com/Akryum/vue-apollo)
+* [Blaze integration of Apollo Client, docs + repo](https://github.com/Swydo/blaze-apollo)
+* [Vue integration of Apollo Client, docs + repo](https://github.com/Akryum/vue-apollo)
 
 **GraphQL Server et al.**
 * [Apollo server tools, docs](http://dev.apollodata.com/tools/)
