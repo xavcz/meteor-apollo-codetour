@@ -1,5 +1,5 @@
 ---
-title: Asking the data client-side with Apollo Client
+title: Asking for data client-side with Apollo Client
 code: https://github.com/apollographql/meteor-integration/blob/master/main-client.js#L8-L14
 ---
 
@@ -17,7 +17,7 @@ Meteor's account system if often _referred as magic_: it is awesome and that wou
 
 In a nutshell, the current user is recognized in a client-session thanks to a login token, usually stored in the browser's local storage. It can also be stored in a cookie, for example thanks to `meteorhacks:fast-render`.
 
-`apollo` takes care of sending the right login token with every request for us, if `useMeteorAccounts` is set to true (default value) and if it exists! A custom middleware catch the login token & modify the request before the request is sent over the wire.
+`apollo` takes care of sending the right login token with every request for us, if `useMeteorAccounts` is set to true (default value) and if it exists! A custom middleware catch the login token & modify the request before the request is sent over the wire. 🚀
 
 <a href="https://github.com/apollographql/meteor-integration/blob/master/main-client.js#L83-L98"><h4>Configure the Apollo Client</h4></a>
 
