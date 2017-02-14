@@ -1,6 +1,6 @@
 ---
-title: Creation of GraphQL Server
-code: https://github.com/apollographql/meteor-integration/blob/master/main-client.js#L8-L14
+title: Setting up a GraphQL Server
+code: https://github.com/apollographql/meteor-integration/blob/master/main-server.js#L38-49
 ---
 
 The GraphQL Server is an express instance ...
@@ -20,4 +20,3 @@ The GraphQL Server is an express instance ...
 <a href="https://github.com/apollographql/meteor-integration/blob/master/main-server.js#L98-L99"><h4>Bind the server to Meteor!</h4>
 
 ...
-

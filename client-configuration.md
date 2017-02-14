@@ -1,5 +1,5 @@
 ---
-title: Asking and loading data client-side with Apollo Client
+title: Asking the data client-side with Apollo Client
 code: https://github.com/apollographql/meteor-integration/blob/master/main-client.js#L8-L14
 ---
 

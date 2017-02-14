@@ -3,17 +3,17 @@ title: Dependencies you should be aware of
 code: https://github.com/apollographql/meteor-integration/blob/master/check-npm.js#L4-L16
 ---
 
-Welcome to the Meteor ↔️ Apollo integration codetour! 🎉 
+Welcome to the Meteor ↔️ Apollo integration codetour! 🎉
 
 This package, `apollo`, is **essentially** preparing the Apollo client & server tools for you to use them the easiest way possible. 
+
+**The goal of this codetour is to demistify how to implement these tools in a Meteor app.** 
 
 Let's have a brief look at the tools we are relying on to power the `apollo` package.
 
 <a href="https://github.com/apollographql/meteor-integration/blob/master/check-npm.js#L6"><h3>Client-side dependencies</h3></a>
 
-The `apollo-client` is the only dependency required client-side. From the docs:
-
-> The `apollo-client` library, a vanilla JavaScript GraphQL client that can be used independent of any other framework. Apollo Client also serves as the core library used by various JavaScript integrations, including _React Apollo_ and _Angular2 Apollo_.
+The `apollo-client` is the only dependency required client-side. From the docs: it is a library, a vanilla JavaScript GraphQL client that can be used independent of any other framework. Apollo Client also serves as the core library used by various JavaScript integrations, including _React Apollo_ and _Angular2 Apollo_.
 
 Thus, `apollo-client` is our founding stone client-side. 
 
