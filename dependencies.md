@@ -11,20 +11,18 @@ This package, `apollo`, is **essentially** preparing the Apollo client & server 
 
 Let's have a brief look at the tools we are relying on to power the `apollo` package.
 
-<a href="https://github.com/apollographql/meteor-integration/blob/master/check-npm.js#L6"><h3>Client-side dependencies</h3></a>
+<a href="https://github.com/apollographql/meteor-integration/blob/master/check-npm.js#L6-L7"><h3>Client-side dependencies</h3></a>
 
-The `apollo-client` is the only dependency required client-side. From the docs: it is a library, a vanilla JavaScript GraphQL client that can be used independent of any other framework. Apollo Client also serves as the core library used by various JavaScript integrations, including _React Apollo_ and _Angular2 Apollo_.
+The `apollo-client` is is our founding stone client-side. From the docs: it is a library, a vanilla JavaScript GraphQL client that can be used independent of any other framework. Apollo Client also serves as the core library used by various JavaScript integrations, including _React Apollo_, _Angular2 Apollo_ or _Blaze Apollo_.
 
-Thus, `apollo-client` is our founding stone client-side. 
+`isomorphic-fetch` is used to polyfill `fetch` as a global so that its API is consistent between client and server. Some browsers like IE11 doesn't include it, and it doesn't exist by default server-side. `fetch` is used internally by Apollo Client.
 
-[![Apollo Client high level overview](http://dev.apollodata.com/core/assets/client-diagrams/1-overview.png)](http://dev.apollodata.com/core/how-it-works.html)
-
-To install it:
+To install the client-side dependencies:
 ```sh
-npm install --save apollo-client
+npm install --save apollo-client isomorphic-fetch
 ```
 
-<a href="https://github.com/apollographql/meteor-integration/blob/master/check-npm.js#L10-L14"><h3>Server-side dependencies</h3></a>
+<a href="https://github.com/apollographql/meteor-integration/blob/master/check-npm.js#L11-L15"><h3>Server-side dependencies</h3></a>
 
 <h4>`graphql` & `grapqhl-tools`</h4>
 
