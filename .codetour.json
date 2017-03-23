@@ -1,6 +1,6 @@
 {
   "targetRepository": "apollographql/meteor-integration",
-  "description": "Discover how to connect Meteor & Apollo together.",
+  "description": "Discover how to connect Meteor & Apollo together!",
   "steps": [
     "dependencies.md",
     "client-configuration.md",
