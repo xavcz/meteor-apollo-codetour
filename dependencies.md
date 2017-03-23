@@ -1,6 +1,6 @@
 ---
 title: Dependencies you should be aware of
-code: https://github.com/apollographql/meteor-integration/blob/master/check-npm.js#L4-L16
+code: https://github.com/apollographql/meteor-integration/blob/master/src/check-npm.js#L4-L16
 ---
 
 Welcome to the Meteor ↔️ Apollo integration codetour! 🎉

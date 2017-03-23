@@ -1,6 +1,6 @@
 ---
 title: Asking for data client-side with Apollo Client
-code: https://github.com/apollographql/meteor-integration/blob/master/main-client.js#L10-L24
+code: https://github.com/apollographql/meteor-integration/blob/master/src/main-client.js#L10-L24
 ---
 
 `apollo` helps you for configuring an Apollo Client instance in three main steps with default configuration that you can extend or replace. Let's walk these steps from the inside to the outside.

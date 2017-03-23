@@ -1,6 +1,6 @@
 ---
 title: Making a GraphQL Server and Meteor cohabit
-code: https://github.com/apollographql/meteor-integration/blob/master/main-server.js#L16-L46
+code: https://github.com/apollographql/meteor-integration/blob/master/src/main-server.js#L16-L46
 ---
 
 `apollo` allows you to use a handy `createApolloServer` to set up a GraphQL server in your app that will friendly cohabit with your Meteor server. It is a simple `express` server enhanced with `graphqlExpress` middleware.
