@@ -7,13 +7,13 @@ code: https://github.com/apollographql/meteor-integration/blob/master/src/main-s
 
 The `createApolloServer` has two defaults configuration objects, one for the `express` server, and one for the `graphqlExpress` middleware.
 
-<a href="https://github.com/apollographql/meteor-integration/blob/master/main-server.js#L46-L62"><h4>Express Server Configuration</h4></a>
+<a href="https://github.com/apollographql/meteor-integration/blob/master/src/main-server.js#L46-L62"><h4>Express Server Configuration</h4></a>
 
 Based on the `defaultServerConfig` and your possible `customServerConfig`, `createApolloServer` will setup an `express` server. You can extend the server configuration with a `configServer` function on `customServerConfig`. It could be useful for instance to enable CORS or prepare the request before it hits the GraphQL endpoint.
 
 Speaking about the GraphQL endpoint, it is defined `/graphql` by default. Original, isn't it?
 
-<a href="https://github.com/apollographql/meteor-integration/blob/master/main-server.js#L62-L73"><h4>GraphQL Endpoint Configuration</h4></a>
+<a href="https://github.com/apollographql/meteor-integration/blob/master/src/main-server.js#L62-L73"><h4>GraphQL Endpoint Configuration</h4></a>
 
 The GraphQL endpoint is a combination of `body-parser` & `graphqlExpress` middlewares. The former parses requests to exploitable JSON objects & the latter handles the requests in accordance with your schema to get the relevant data.
 
@@ -25,7 +25,7 @@ The `context` is an object shared by all resolvers in a particular query, and is
 
 Moreover, this is on the `customOptionsObject` that you pass a GrahQL `schema` created thanks to `makeExecutableSchema` to get data from your various backends.
 
-<a href="https://github.com/apollographql/meteor-integration/blob/master/main-server.js#L75-L114"><h4>Authenticate the current user</h4></a>
+<a href="https://github.com/apollographql/meteor-integration/blob/master/src/main-server.js#L75-L114"><h4>Authenticate the current user</h4></a>
 
 In the eventuality of a login token sent with every queries, it's time to process it!
 
@@ -39,7 +39,7 @@ If the query returns a `currentUser` document and the token isn't expired, `apol
 
 If no user is found, no bother: it just move forward and will try next time. ✌️
 
-<a href="https://github.com/apollographql/meteor-integration/blob/master/main-server.js#L128-L137"><h4>Graph<em>i</em>QL</h4></a>
+<a href="https://github.com/apollographql/meteor-integration/blob/master/src/main-server.js#L128-L137"><h4>Graph<em>i</em>QL</h4></a>
 
 There is another nitty-gritty feature this package enables for you: Graph<em>i</em>QL. It is a graphical interactive in-browser GraphQL IDE. It is perfect to test what you are building. 
 
@@ -56,7 +56,7 @@ query {
 
 Graph<em>i</em>QL is by default enabled in development, and disabled in production.  
 
-<a href="https://github.com/apollographql/meteor-integration/blob/master/main-server.js#L139-L140"><h4>Bind the GraphQL server to Meteor!</h4></a>
+<a href="https://github.com/apollographql/meteor-integration/blob/master/src/main-server.js#L139-L140"><h4>Bind the GraphQL server to Meteor!</h4></a>
 
 This last line put the final touches to the `createApolloServer` function in two steps.
 

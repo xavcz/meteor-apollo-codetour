@@ -11,7 +11,7 @@ This package, `apollo`, is **essentially** preparing the Apollo client & server 
 
 Let's have a brief look at the tools we are relying on to power the `apollo` package.
 
-<a href="https://github.com/apollographql/meteor-integration/blob/master/check-npm.js#L6-L7"><h3>Client-side dependencies</h3></a>
+<a href="https://github.com/apollographql/meteor-integration/blob/master/src/check-npm.js#L6-L7"><h3>Client-side dependencies</h3></a>
 
 The `apollo-client` is is our founding stone client-side. From the docs: it is a library, a vanilla JavaScript GraphQL client that can be used independent of any other framework. Apollo Client also serves as the core library used by various JavaScript integrations, including _React Apollo_, _Angular2 Apollo_ or _Blaze Apollo_.
 
@@ -22,7 +22,7 @@ To install the client-side dependencies:
 npm install --save apollo-client isomorphic-fetch
 ```
 
-<a href="https://github.com/apollographql/meteor-integration/blob/master/check-npm.js#L11-L15"><h3>Server-side dependencies</h3></a>
+<a href="https://github.com/apollographql/meteor-integration/blob/master/src/check-npm.js#L11-L15"><h3>Server-side dependencies</h3></a>
 
 <h4>`graphql` & `grapqhl-tools`</h4>
 
