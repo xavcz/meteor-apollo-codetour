@@ -1,5 +1,5 @@
 ---
-title: Using the package and moving forward
+title: Using this package in your app
 code: https://github.com/apollographql/meteor-integration/blob/master/README.md#1-20
 ---
 
