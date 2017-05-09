@@ -2,7 +2,6 @@
   "targetRepository": "apollographql/meteor-integration",
   "description": "Discover how to link Meteor & Apollo together!",
   "steps": [
-    "dependencies.md",
     "client-configuration.md",
     "graphql-server.md",
     "conclusion.md"
